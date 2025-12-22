@@ -2,8 +2,6 @@
 
 ![License](https://img.shields.io/github/license/ephmo/reprofed-profiles)
 
----
-
 Community-maintained profiles for [ReproFed](https://github.com/ephmo/reprofed) — the declarative Fedora configuration manager.
 
 This repository hosts **community-contributed profiles** that extend **ReproFed** beyond the officially supported profiles maintained in the core project.

@@ -49,7 +49,7 @@ Contributions are welcome and appreciated!
 2. Copy `profiles/templates/profile.yaml` and adapt it to your use case.
 3. Submit a Pull Request for review.
 
-### ⚠️ Important Notes
+### Important Notes
 
 - Only community profiles belong in this repository
 - Official profiles remain in the core [ReproFed](https://github.com/ephmo/reprofed) repository

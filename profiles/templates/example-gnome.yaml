@@ -60,7 +60,6 @@ packages:
       - "@desktop-accessibility"
       - "@dial-up"
       - "@firefox"
-      - flatpak
       - "@fonts"
       - "@gnome-desktop"
       - "@guest-desktop-agents"
@@ -72,6 +71,7 @@ packages:
       - "@printing"
       - "@standard"
       - "@workstation-product"
+      - flatpak
 
     # Fedora-version-specific (optional)
     fedora_42:

@@ -85,6 +85,10 @@ packages:
 # Services
 # --------------------------------------------------
 services:
+  # Set the default target
+  set-default:
+    - graphical.target
+
   # Enable services at boot (optional)
   enable:
     - gdm

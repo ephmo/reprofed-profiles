@@ -6,7 +6,7 @@ metadata:
   description: Example Fedora GNOME profile
   version: "1.0.0" # Semantic Versioning (MAJOR.MINOR.PATCH)
   maintainer: your-name
-  last_updated: "2025-12-22"
+  last_updated: "2025-12-23"
 
 # --------------------------------------------------
 # Requirements / compatibility
@@ -34,7 +34,7 @@ packages:
   install:
     # Packages installed on all supported Fedora versions
     all_versions:
-      # Base system
+      # Minimal system
       - "@core"
       - authselect
       - btrfs-progs
@@ -54,15 +54,30 @@ packages:
       - yq
 
       # Desktop
+      - admin-tools
+      - base-graphical
+      - container-management
+      - desktop-accessibility
+      - dial-up
+      - firefox
+      - fonts
       - gnome-desktop
+      - guest-desktop-agents
+      - hardware-support
+      - input-methods
+      - libreoffice
+      - multimedia
+      - networkmanager-submodules
+      - printing
+      - standard
       - workstation-product
 
     # Fedora-version-specific (optional)
     fedora_42:
-      - example-fedora43-only-package
+      - example-fedora42-only-package
 
     fedora_43:
-      - example-fedora44-only-package
+      - example-fedora43-only-package
 
     # Flatpak applications (optional)
     flatpak:
@@ -72,14 +87,14 @@ packages:
   exclude:
     # Remove packages on all Fedora versions (optional)
     all_versions:
-      - example-unwanted-package
+      - gnome-software
 
     # Fedora-version-specific removals (optional)
     fedora_42:
-      - example-fedora43-unwanted-package
+      - example-fedora42-unwanted-package
 
     fedora_43:
-      - example-fedora44-unwanted-package
+      - example-fedora43-unwanted-package
 
 # --------------------------------------------------
 # Services
@@ -91,15 +106,15 @@ services:
 
   # Enable services at boot (optional)
   enable:
-    - gdm
+    - gdm.service
 
   # Disable services without masking (optional)
   disable:
-    - example-disabled-service
+    - example-disable.service
 
   # Mask services completely (optional)
   mask:
-    - example-masked-service
+    - example-mask.service
 
 # This is an example profile template.
 # Real profiles should remove unused sections.

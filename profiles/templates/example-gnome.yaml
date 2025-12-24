@@ -4,7 +4,7 @@
 metadata:
   name: example-gnome
   description: Example Fedora GNOME profile
-  version: "1.0.0" # Semantic Versioning (MAJOR.MINOR.PATCH)
+  version: "1.0.1" # Semantic Versioning (MAJOR.MINOR.PATCH)
   maintainer: your-name
   last_updated: "2025-12-23"
 

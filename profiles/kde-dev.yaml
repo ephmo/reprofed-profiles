@@ -58,7 +58,11 @@ packages:
       - "@networkmanager-submodules"
       - "@printing"
       - "@standard"
+      - code
       - flatpak
+      - git
+      - neovim
+      - shfmt
 
   exclude:
     all_versions:

@@ -59,7 +59,11 @@ packages:
       - "@printing"
       - "@standard"
       - "@workstation-product"
+      - code
       - flatpak
+      - git
+      - neovim
+      - shfmt
 
   exclude:
     all_versions:

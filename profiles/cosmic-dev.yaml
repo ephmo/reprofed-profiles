@@ -1,9 +1,9 @@
 metadata:
-  name: cosmic
-  description: Fedora COSMIC Desktop profile
+  name: cosmic-dev
+  description: Fedora COSMIC Desktop for developers profile
   version: "1.0.0"
   maintainer: ephmo
-  last_updated: "2025-12-23"
+  last_updated: "2025-12-25"
 
 requires:
   distro: fedora

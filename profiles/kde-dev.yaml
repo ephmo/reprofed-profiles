@@ -1,6 +1,6 @@
 metadata:
-  name: kde
-  description: Fedora KDE Plasma Workspaces profile
+  name: kde-dev
+  description: Fedora KDE Plasma Workspaces for developers profile
   version: "1.0.0"
   maintainer: ephmo
   last_updated: "2025-12-23"

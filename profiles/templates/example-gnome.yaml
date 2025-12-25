@@ -26,6 +26,7 @@ repos:
     free: true
     nonfree: true
   flathub: true
+  vscode: true
 
 # --------------------------------------------------
 # Package management

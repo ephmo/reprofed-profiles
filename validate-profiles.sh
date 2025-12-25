@@ -92,6 +92,7 @@ for file in "${PROFILE_FILES[@]}"; do
   require_boolean "repos.rpmfusion.free"
   require_boolean "repos.rpmfusion.nonfree"
   require_boolean "repos.flathub"
+  require_boolean "repos.vscode"
   require_key "packages.install.all_versions"
   require_key "services.set-default"
 

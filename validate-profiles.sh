@@ -5,7 +5,7 @@ shopt -s globstar nullglob
 PROFILES_DIR="profiles"
 EXIT_CODE=0
 
-if ! command -v yq >/dev/null 2>&1; then
+if ! command -v yq > /dev/null 2>&1; then
   echo "❌ yq is required but not installed"
   exit 1
 fi

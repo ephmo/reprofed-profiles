@@ -6,7 +6,8 @@ metadata:
   description: Example Fedora GNOME profile
   version: "1.0.0" # Semantic Versioning (MAJOR.MINOR.PATCH)
   maintainer: your-name
-  last_updated: "2025-12-23"
+  release_date: "2025-12-29"
+  last_modified: "2025-12-29"
 
 # --------------------------------------------------
 # Requirements / compatibility
@@ -22,10 +23,9 @@ requires:
 # Repositories
 # --------------------------------------------------
 repos:
-  rpmfusion:
-    free: true
-    nonfree: true
   flathub: true
+  rpmfusion-free: true
+  rpmfusion-nonfree: true
   vscode: true
 
 # --------------------------------------------------

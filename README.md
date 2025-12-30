@@ -4,13 +4,13 @@
 
 Community-maintained profiles for [ReproFed](https://github.com/ephmo/reprofed) — the declarative Fedora configuration manager.
 
-This repository hosts **community-contributed profiles** that extend **ReproFed** beyond the officially supported profiles maintained in the core project.
+This repository hosts **community-contributed profiles** that extend **ReproFed** beyond the officially supported profiles.
 
 ---
 
 ## 🚀 Purpose of This Repository
 
-The **core ReproFed repository** maintains a small, stable set of officially supported profiles (such as _gnome_, _kde_, _cosmic_, and _server_).
+The **ReproFed repository** maintains a small, stable set of officially supported profiles (such as _gnome_, _kde_, _cosmic_, and _server_).
 
 This repository exists to:
 
@@ -24,7 +24,7 @@ Profiles in this repository are **not officially supported** but are available f
 
 ## 📦 Profile Requirements
 
-A `profile.yaml` file is provided in the `profiles/templates/` directory and serves as the authoritative reference for all profile authors.
+A `example-gnome.yaml` file is provided in the `profiles/templates/` directory and serves as the authoritative reference for all profile authors.
 
 Each new profile must be created as a YAML file and placed in the `profiles/` directory, following the structure and conventions defined in the template.
 
@@ -46,13 +46,13 @@ Contributions are welcome and appreciated!
 ### Adding a New Profile
 
 1. Fork this repository
-2. Copy `profiles/templates/profile.yaml` and adapt it to your use case.
+2. Copy `profiles/templates/example-gnome.yaml` and adapt it to your use case.
 3. Submit a Pull Request for review.
 
 ### Important Notes
 
 - Only community profiles belong in this repository
-- Official profiles remain in the core [ReproFed](https://github.com/ephmo/reprofed) repository
+- Official profiles remain in the [ReproFed](https://github.com/ephmo/reprofed) repository
 - Profiles should remain declarative and reproducible
 - Avoid destructive or unsafe defaults
 

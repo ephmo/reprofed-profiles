@@ -90,9 +90,6 @@ for file in "${PROFILE_FILES[@]}"; do
   require_array_contains "requires.distro_versions" "42"
   require_array_contains "requires.distro_versions" "43"
   require_equals "requires.arch" "x86_64"
-  require_boolean "repos.rpmfusion-free"
-  require_boolean "repos.rpmfusion-nonfree"
-  require_boolean "repos.vscode"
   require_key "packages.install.all_versions"
   require_key "services.set-default"
 

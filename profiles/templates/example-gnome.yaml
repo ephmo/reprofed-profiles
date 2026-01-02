@@ -6,8 +6,8 @@ metadata:
   description: Example Fedora GNOME profile
   version: "1.0.0" # Semantic Versioning (MAJOR.MINOR.PATCH)
   maintainer: your-name
-  release_date: "2026-01-01"
-  last_modified: "2026-01-01"
+  release_date: "2026-01-02"
+  last_modified: "2026-01-02"
 
 # --------------------------------------------------
 # Requirements / compatibility
@@ -93,6 +93,10 @@ services:
   # Mask services completely (optional)
   mask:
     - example-mask.service
+
+  # Unmask services (optional)
+  unmask:
+    - example-unmask.service
 
 # This is an example profile template.
 # Real profiles should remove unused sections.
